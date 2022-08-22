@@ -1,0 +1,250 @@
+#include<stdio.h>
+int main()
+{
+long double a;
+long double b;
+int arr[sizeof(!a+b)];
+printf(“%d”,sizeof(arr));
+}
+
+
+A. Run time Error
+B. 32
+C. 64
+D. No output
+---------------------------------------------------------------
+READ x =4, y = 0;
+READ z;
+z = (y++, y);
+WRITE z
+
+
+
+A. 1
+B. 0
+C. Undefined Behavior due to order of evaluation can be different.
+D. Compilation Error
+------------------------------------------------------------------
+READ ch value between 1 & 2
+switch(ch, ch+1)
+case 1 :
+WRITE “1”
+break;
+case 2 :
+WRITE “2”
+break;
+default :
+WRITE “3”
+
+
+A. 1
+    3
+B. Error : Undefined condition in switch
+C. 1
+D. No output
+--------------------------------------------------
+FUNCTION fun1(INPUT num)
+{
+static int a =0;IF
+(num>0) a=a+1;
+fun1(num/10);
+ELSE
+return a;
+END FUNCTION
+
+
+What is the output of given code for input 134.
+A. 2
+B. 3
+C. Runtime Error
+D. None of these
+
+
+----------------------------------------------------
+read the value of n
+set m=1,t=0
+if m >= n
+go to line 9
+
+else
+t=t+m
+m+=1
+go to line 3
+display T
+Stop
+
+
+What will be output of given pseudo code for input 7.
+A. 32
+B. 76
+C. 28
+D. 21
+------------------------------------------------------
+READ n=2
+FUNCTION fun(int n)
+IF(n == 4)
+return n;
+ELSE
+return 2*fun(n+1);
+
+A. 4
+B. 8
+C. 16
+D. Error
+----------------------------------------------------------
+03:24
+
+int i=5, j=7; if
+( i+j> 5)
+j = i+2; if
+( j<5 )
+print(i)
+else
+print(j)
+
+else
+print(i+1)
+
+
+What will be output of given pseudo code.
+A. 12
+B. 5
+C. 7
+D. 6
+---------------------------------------------
+READ INTEGER j=41, k= 37
+j=j+1
+k=k-1
+j=j/k
+k=k/j
+print(k,j)
+
+What will be output of given pseudo code.
+A. 42 36
+B. 36 1
+C. 1 1
+D. 1 36
+
+----------------------------------------------
+#include<stdio.h> using
+namespace std;int main()
+{
+int a =0,b=1,c=2;
+*( ( a+1==1) ? &b : &a)= a? b : c;
+printf(“%d, %d, %d \n”, a , b, c );
+return 0;
+}
+
+A. 0 1 2
+B. 0 2 0
+C. 0 2 2
+D. Error
+-------------------------------------------
+READ s1,e1
+FUNCTION num(INT
+s1,INT e1)IF(s1==e1)
+RETURN
+s1ELSE
+RETURN
+s1+num(s1+1,e1) ENDIF
+END FUNCTION
+
+What will be the output of the given pseudocode for s1=3 and e1=6?
+A. 12
+B. 15
+C. 18
+D. 6
+-------------------------------------------------
+world=181
+FUNCTION hello(int world)
+INITIALIZE integer zero=0, integer remindme WHILE
+world <>0
+remindme=world%10;
+zero=zero*10+remindme
+hello(world/10)
+ENDWHILE
+WRITE zero
+
+ENDFUNCTION
+
+
+A. zero
+B. 181
+C. 18
+D. 1
+------------------------------------------
+number = 122,567,789,543,536,999
+Sum = 0
+Counter = 0
+Average = 0
+Input(number)
+While number <> 999
+	Sum = sum+number
+	Counter = counter+1
+	Input(number)
+Endwhile Average = sum/ counter
+Output('The average of the number is', average:6:2)
+
+Consider the above pseudocode:
+A. 592.66
+B. 511.40
+C. 999.08
+D. 3556.66
+-----------------------------------------------------
+Set x to 1 Set
+y to 1
+while(x<20)
+write "x"
+x=x+5
+y=y+5
+End while
+
+A. 1 1 6 6 11 11 16 16
+B. 1 5 10 15
+C. 1 6 11 16
+D. None of these
+-----------------------------------------------------------
+n1=9,n2=322,n3=798,n4=789,n5=987 READ
+n1,n2,n3,n4,n5
+SET avg to (n1+n2+n3+n4+n5)/5
+If(n1<n2)
+SET max to n2
+Else
+SET max to n1
+If(n3>max)
+SET max to n3
+If(n4>max)
+SET max to n4
+If(n5>max)
+
+SET max to n5
+Write max
+If(n1>n2)
+SET min to n2
+Else
+SET min to n1
+If(n3<min)
+SET min to n3
+If(n4<min)
+SET min to n4
+If(n5<min)
+SET min to n5
+Write min If(max<min)
+Write max
+Else
+Write min
+
+A. 9 9 9
+B. 987 9 987
+C. 987 9 9
+D. 987 9 798
+-------------------------------------------------
+While<><>7
+
+WRITE “HEY”
+End While
+
+A. HEY
+B. HEYHEY
+C. Infinite loop
+D. None of these
