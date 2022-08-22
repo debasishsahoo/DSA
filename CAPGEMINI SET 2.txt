@@ -1,0 +1,292 @@
+Find the output of the following pseudo-code:
+
+Integer x,y,z;
+x=0
+y=1
+x = y = z = 8
+Print x
+ 
+Options:
+
+A) 0
+
+B) 8
+
+C) 1
+
+D) None of the above
+---------------------------------------------------
+Question 2:
+
+Find the output of the following pseudo-code:
+
+ Integer value, n
+ Set value = 1, n = 45while(value less than equal to n)
+ value = value << 1
+ end loop
+ Print value
+ 
+
+Options:
+
+A) 64
+
+B) 32
+
+C) 45
+
+D) None of the above
+---------------------------------------------------------
+Find the output of the following pseudo-code:
+
+ Integer c, d
+ Set c = 15, d = 12
+ d = c – 1
+ Print c       //line
+ c = d + (c – 2)
+ if(c < 40)
+   Goto line
+ end if
+ 
+
+Options:
+
+A) 14 26 38
+
+B) 27 39
+
+C) 15 27 39
+
+D) None of the above
+-----------------------------------------------------
+Find the output of the following pseudo-code if x= 4 and y=5:
+
+ Integer fun(int x, int y)
+   if(x > 1)
+     fun(x – 2, y + 2)
+   end if
+   print y
+ End function fun()
+ 
+
+Options:
+
+A) 4 5 6
+
+B) 7 6 5
+
+C) 9 7 5
+
+D) None of the above
+-----------------------------------------------------
+How many times will the print statement be executed:
+
+ Integer a, b, c
+ Set a = 8, b = 10, c = 6
+ If(a > c AND (b + c) > a)
+   Print a
+ end ifif(c > b OR (a + c) > b)
+   Print b
+ end ifif((b+c) MOD a EQUALS 0)
+   Print c
+ end if
+ 
+
+Options:
+
+A) 2
+
+B) 3
+
+C) 1
+
+D) 0
+------------------------------------------------------------
+What will be the output if the following pseudocode if a=10 and b=6:
+
+   Integer func (Integer a, Integer b)
+   Integer temp
+   while(b)
+     temp = a MOD b
+     a = b
+     b = temp
+   end whilereturn a
+ End function func()
+ 
+
+Options:
+
+A) 2
+
+B) 4
+
+C) 3
+
+D) 1
+--------------------------------------------------------
+What will be the output of the following pseudo-code?
+
+Integer x, y, z
+Set x=24, y=8
+x = x/y
+ z = y<<x
+Print z
+[Note: << is left shift operator, it takes two numbers, left shifts the bits of the first operand, the second operand decodes the number of …]
+
+Options:
+A) 1
+B) 8
+C) 0
+D) 64
+--------------------------------------------------------------
+What will be the output of the following pseudocode?
+
+Integer x, y, z, a
+Set x = 2, y = 1, z = 5
+a = (x AND y) OR (z + 1)
+Print a
+ 
+Options:
+
+A) 5
+
+B) 3
+
+C) 2
+
+D) 1
+------------------------------------------------------------
+02:19
+
+What will be the output of the following pseudocode?
+
+Integer a=5, b=4, c=3
+a = b + c
+c = a – b
+c = c + a
+c = b + c
+b = b + c
+Print a, b, c
+ 
+
+Options:
+
+A) 7 14 7
+
+B) 7 14 10
+
+C) 7 8 14
+
+D) 7 18 14
+-------------------------------
+What will be the output of the following pseudocode?
+
+  Integer a, b, c, d
+             Set b = 18, c = 12
+             a = b – c
+             for (each c from 1 to a – 1)
+                         b = b + c + 12
+                         b = b/5
+                         d = b + a
+             end for
+             c = a + b + c
+             Print a b c
+ 
+
+Options:
+
+A) 5 3 9
+
+B) 6 14 17
+
+C) 6 4 14
+
+D) 6 4 16
+--------------------------------------------------------
+An abstract data type is defined to be a mathematical model of a user-defined type along with the collection of all ________ operations on that model.
+Options:
+
+A) Union
+
+B) Assignment
+
+C) Primitive
+
+D) None of the above
+-------------------------------------------------------
+What do we call the binary tree nodes with no successor?
+
+Options:
+A) End nodes
+
+B) Terminal nodes
+
+C) Last nodes
+
+D) Final nodes
+-----------------------------------------------------
+What do we call the highest element of an array’s index?
+
+A)   Upper bound
+
+B)   Lower bound
+
+C)   Range
+
+D)   Extraction
+----------------------------------------------------
+Which of the following data types represents many to many relations?
+
+A)   Both plex and graph
+
+B)   Graph
+
+C)   Plex
+
+D)   Tree
+--------------------------------------------------------
+Which of the following is NOT a type of linked list?
+
+A)   Double ended linked list
+
+B)   Double linked list
+
+C)   Simple linked list
+
+D)   Circular linked list
+-----------------------------------------------------
+Each node of the graph is represented as a _______?
+
+A)  Vertex
+
+B)  Root
+
+C)  Path
+
+D)  Edge
+------------------------------------------------------
+Recursion uses more memory space than iteration. Which of the following is/are the valid reason for the same?
+
+A.   It uses the stack instead of a queue
+
+B.   Every recursion call has to be stored
+
+Choose the correct answer from the options given below.
+
+A)   Only A
+
+B)   Both A and B
+
+C)   Neither A nor B
+
+D)   Only B
+------------------------------------------------------------
+To which of the following domain problem does the knapsack problem belong?
+
+A)   NP-complete
+
+B)   Sorting
+
+C)   Optimisation
+
+D)   Linear Solution
