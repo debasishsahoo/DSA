@@ -1,0 +1,65 @@
+Here is pseudo code for ___________ algorithm.
+
+Set n to number of records to be sorted
+repeat
+flag = false;
+for counter = 1 to n-1 do
+if key[counter] > key[counter+1] then
+swap the records;
+set flag = true;
+end if
+end do
+n = n-1;
+until flag = false or n=1
+
+
+-----------------------------------------------------------
+Here is  pseudo code for ___________ algorithm.
+
+If student's grade is greater than or equal to 60
+    Print "passed"
+else
+    Print "failed"  
+endif
+----------------------------------------------------------
+Here is  pseudo code for ___________ algorithm.
+
+Set total to zero
+Set grade counter to one
+While grade counter is less than or equal to ten
+    Input the next grade
+    Add the grade into the total
+endwhile 
+Set the class average to the total divided by ten
+Print the class average.
+--------------------------------------------------------
+Here is  pseudo code for ___________ algorithm.
+
+Initialize total to zero
+Initialize counter to zero
+Input the first grade
+while the user has not as yet entered the sentinel
+   add this grade into the running total 
+   add one to the grade counter  
+   input the next grade (possibly the sentinel)
+endwhile
+
+if the counter is not equal to zero
+   set the average to the total divided by the counter
+   print the average  
+else
+   print 'no grades were entered' 
+endif 
+
+------------------------------------------------------------
+Here is  pseudo code for ___________ algorithm.
+
+Algorithm start
+Declare an array of string type variable called word
+Declare a loopcounter
+Store a string in the array word
+for loopcounter = (length of the word) – 1 to 0
+loopcounter = loopcounter – 1
+print arrayword[loopcounter]
+endfor
+Algorithm end
