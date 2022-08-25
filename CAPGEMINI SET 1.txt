@@ -55,6 +55,48 @@ Consider an array A = {1, 2, 4, 5, 6, 11, 12} and a key which is equal to 10. Ho
 2
 
 3
+=======================explanation===========================
+There is an Integer Array A = {1, 2, 4, 5, 6, 11, 12} and the key value is 10.
+
+ 
+
+Binary search applies only to the sorted ordered list.
+
+ 
+
+We know that binary search takes log n base 2 times to search for a particular element.
+
+If there are N elements in the set you have chosen binary search then take log n base 2 times.
+
+First, you check how many elements in your array. if an element in your array is greater than 1 then you go for the next step.
+Binary search divides the problem into two parts using the mean of the total number of an element which is sorted mean=(0+n)/2
+And compare the searching element which is either greater than the mean or lesser or equal to the mean .then after comparison skips the one part either greater part or small part depends on the result of searching is done if the mean is equal to the searching element. So that problem is divide into n/2 and goes until searching is done.
+If you apply the recursive equation for the binary search algorithm then
+
+T(n)=T(n/2)+1 to solve the problem
+
+n/2^k=1
+
+taking log on both sides
+
+log n=log (2^k)
+
+log n= k log 2
+
+k=log n base 2.
+
+N=7
+
+K=log 7 base 2 = 3
+
+K=3
+
+ 
+
+So, the answer becomes 3.
+
+
+
 --------------------------------------------------------------
 What would be the output of the following pseudocode?
 
