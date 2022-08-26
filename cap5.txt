@@ -1,0 +1,98 @@
+1. There is a new data-type which can take as values natural numbers between(and including) 0 and 25. How many minimum bits are required to store this datatype. 
+Op 1: 4
+Op 2: 5 
+Op 3: 1 
+Op 4: 3
+----------------------------
+Integer a = 40, b = 35, c = 20, d = 10 
+Comment about the output of the following two statements: 
+print a * b / c - d
+print a * b / (c - d)
+ 
+Op 1: Differ by 80
+
+Op 2: Same
+
+Op 3: Differ by 50
+
+Op 4: Differ by 160
+-----------------------------------------
+Smriti wants to make a program to print the sum of square of the first 5 whole numbers (0...4). 
+She writes the following program: 
+integer i = 0 // statement 1
+integer sum = 0 // statement 2 
+while ( i < 5 ) // statement 3 
+{   sum = i*i // statement 4
+  i = i + 1 // statement
+}
+print sum // statement 6
+Is her program correct? If not, which statement will you modify to correct it?
+
+Op 1: No error, the program is correct. 
+Op 2: Statement 1
+Op 3: Statement 4
+Op 4: statement 6
+-------------------------------------------
+Shashi wants to make a program to print the sum of the first 10 multiples of 5.
+She writes the following program, where statement 5 is missing: 
+integer i = 0 
+integer sum = 0
+while ( i <= 50 ) {
+sum = sum + i 
+-- MISSING STATEMENT 5 --
+} 
+print sum 
+Which of the following will you use for statement 5? 
+Op 1: i = 5
+Op 2: i = 5 * i
+Op 3: i = i + 1
+Op 4: i = i + 5
+---------------------------------------------------------
+Shalini wants to program to print the largest number out of three inputted numbers. She writes the following program: 
+int number1, number 2, number3, temp;
+input number1, number2, number3;
+if (number1>number2)
+temp = number1
+else
+temp = number2
+end if
+if (??) // Statement 1
+temp = number3
+end if
+print temp
+Fill in the ?? in Statement 1
+Op 1: number3 > number2
+Op 2: number3 > temp
+Op 3: number3 < temp
+Op 4: number3 > number1
+------------------------------------------------
+Rohit writes the following program which inputs a number and prints "Double digit" if the number is composed of two digits and "Not a double digit" if it is not. int number;
+if (number>10 AND number < 100)
+print "Double digit"
+else
+print "Not a double digit"
+end if
+Rohit tries the following inputs: 5 and 66. The program works fine. He asks his brother Ravi to try the program. When Ravi enters a number, the program doesn't work correctly. What did Ravi enter?
+Op 1: 8
+Op 2: 100
+Op 3: 99
+Op 4: 10
+------------------------------------------------------------
+8. Consider the following code:
+function modify(y,z)
+{  y = y + 1
+z = z + 1
+return y – z }
+function calculate( )
+{
+integer a = 12, b = 20, c
+c = modify(a, b);
+print a
+print space
+print c
+}
+Assume that a and b were passed by reference. What will be the output of the function calculate( ) ?
+Op 1: 12 -8
+Op 2: 13 -8
+Op 3: 12 8
+Op 4: 13 8
