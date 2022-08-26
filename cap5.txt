@@ -96,3 +96,147 @@ Op 1: 12 -8
 Op 2: 13 -8
 Op 3: 12 8
 Op 4: 13 8
+--------------------------------------------
+9. Consider the following code:
+function modify(a,b)
+{ integer c, d = 2
+c = a*d + b
+return c  }
+function calculate( )
+{
+integer a = 5, b = 20, c
+integer d = 10
+c = modify(a, b);
+c = c + d
+print c
+}
+Assume that a and b were passed by value. What will be the output of the function calculate( ) ?
+Op 1: 80
+Op 2: 40
+Op 3: 32
+Op 4: 72
+----------------------------------------
+10. Consider the following code:
+if (condition 1) {
+if (condition 2)
+{ // Statement A } else
+if (condition 3)
+{ // Statement B} else
+{// Statement C } else
+if (condition 4)
+{// Statement D}
+else
+{// Statement E}
+}
+Which of the following condition will allow execution of statement A?
+Op 1: NOT(condition2) AND NOT(condition3)
+Op 2: condition1 AND condition4 AND NOT(condition2) AND NOT(condition3)
+Op 3: condition1 AND condition2 AND condition4
+Op 4: NOT(condition1) AND condition2 AND NOT(condition4)
+------------------------------------------------------------
+11. What does the following function do?
+function operation (int a, int b)
+{
+if (a < b)
+{ return operation(b, a) } else
+{ return a }
+}
+Op 1: Returns the max of (a,b)
+Op 2: Returns the min of (a,b)
+Op 3: Loops forever
+Op 4: Always returns the second parameter
+---------------------------------------------------------
+12. The time required to insert an element in a stack with linked list
+implementation is
+Op 1: O (1)
+Op 2: O (log2 n)
+Op 3: O (n)
+Op 4: O (n log2 n )
+------------------------------------------------
+13. A sorting algorithm traverses through a list, comparing adjacent elements and switching them under certain conditions. What is this sorting algorithm called? 
+Op 1: insertion sort
+Op 2: heap sort
+Op 3: quick sort
+Op 4: bubble sort
+----------------------------------------------------
+14. How many comparisons are needed to sort an array of length 5 if a straight selection sort is used and array is already in the opposite order? Op 1: 1
+Op 2: 10
+Op 3: 50
+Op 4: 20
+--------------------------------------------------
+15. A complete binary tree with 5 levels has how many nodes? (Root is Level 1) 
+Op 1: 15
+Op 2: 25
+Op 3: 63
+Op 4: 31
+-------------------------------------------------------
+17. Prashant takes as input 2 integer numbers, a and b, whose value can be between 0 and 127. He stores them as 7 bit numbers. He writes the following code to process these numbers to produce a third number c. c = a - b
+In how many minimum bits should Prashant store c?
+Op 1: 6 bits
+Op 2: 7 bits
+Op 3: 8 bits
+Op 4: 9 bits
+------------------------------------------------------------------
+18. Integer a = 10, b = 35, c = 5
+Comment about the output of the two statements?
+print a * b + c / d
+print c / d + a * b
+Op 1: Differ due to left-to-right precedence
+Op 2: Differ by 10
+Op 3: Differ by 20
+Op 4: Same
+-------------------------------------------------------------
+21.Shrishti writes the code for a function that computes the factorial of theninputted number n.
+function factorial(n)
+{
+if(n equals 1)
+return 1
+else
+-- MISSING STATEMENT --
+end
+}
+Fill in the missing statement.
+Op 1: return factorial(n-1)
+Op 2: return n*factorial(n)
+Op 3: return n*(n-1)
+Op 4: return n*factorial(n-1)
+----------------------------------------------------------
+22.Consider the following function
+function calculate( n )
+{
+if(n equals 5)
+return 5
+else
+return (n + calculate(n-5))
+end
+}
+Shishir calls the function by the statement, calculate(20). What value will the
+function return?
+Op 1: 50
+Op 2: 200
+Op 3: 35
+Op 4: 20
+--------------------------------------------
+23.The for loop is equivalent to a while loop when
+Op 1: There is no initialization expression
+Op 2: There is no increment expression
+Op 3: A and B combined are true
+Op 4: It is never equivalent
+-----------------------------------------------
+24.How will 47 be stored as an unsigned 8-bit binary number?
+Op 1: 10111101
+Op 2: 00101111
+Op 3: 10111000
+Op 4: 00101101
+----------------------------------------------------
+25. What will be the output of the following pseudo-code statements:
+integer a = 984, b=10
+//float is a data-type to store real numbers.
+float c
+c = a / b
+print c
+Op 1: 984
+Op 2: 98.4
+Op 3: 98
+Op 4: Error
+--------------------------------------
